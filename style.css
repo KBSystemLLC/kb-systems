@@ -21,6 +21,7 @@ html {
 
 body {
   margin: 0px;
+  background-color: #1a1919;
   background: radial-gradient(
     ellipse 100% 60% at 50% 0%,
     #2e1f1f 0%,
@@ -281,7 +282,6 @@ body {
   display: block;
 }
 
-
 /* Mobile */
 @media (max-width: 768px) {
   .navlinks {
@@ -289,8 +289,8 @@ body {
   }
 
   #project-container {
-  grid-template-columns: 1.5fr;
-  gap: 80px;
+    grid-template-columns: 1.5fr;
+    gap: 80px;
   }
 
   #contact-email {
